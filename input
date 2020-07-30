@@ -1,0 +1,13 @@
+
+print("First Number:")
+first_number = int(input())
+print("Second Number:")
+second_number = int(input())
+#convert to a numeric data type
+sum = first_number + second_number
+#print('resultat =', sum)
+print('Sum:',+ sum)
+#Here, the position of the function str () to convert the value of the variable to a string. Then you can concatenate strings to format the sum correctly.
+print("Sum: " + str(sum))
+#second version
+#end
